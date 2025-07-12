@@ -1,30 +1,24 @@
-# ======================
-# OS-specific
-.DS_Store
+# node modules
+**/node_modules/
 
-# ======================
-# Dependency folders
-node_modules/
+# build outputs
+**/.next/
+**/build/
+**/dist/
 
-# ======================
-# Build outputs
-dist/
-build/
-.next/
-out/
+# yarn/pnpm
+**/.yarn/
+.pnp.*
+.pnpm-debug.log*
 
-# ======================
-# Environment files
+# env & config
 .env*
 .vercel
 
-# ======================
-# Logs
+# system + misc
+.DS_Store
 *.log
-
-# ======================
-# IDE and tooling
+*.tsbuildinfo
 .vscode/
 .idea/
-*.tsbuildinfo
 next-env.d.ts
