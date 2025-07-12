@@ -1,0 +1,30 @@
+# ======================
+# OS-specific
+.DS_Store
+
+# ======================
+# Dependency folders
+node_modules/
+
+# ======================
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# ======================
+# Environment files
+.env*
+.vercel
+
+# ======================
+# Logs
+*.log
+
+# ======================
+# IDE and tooling
+.vscode/
+.idea/
+*.tsbuildinfo
+next-env.d.ts
